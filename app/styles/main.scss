@@ -106,6 +106,24 @@ body {
   }
 
 }
+
+.store-info {
+    color      : $primary-color;
+    font-family: $primary-font-family;
+    font-size  : rem(14);
+    padding    : rem(40);
+    display: none;
+
+    @include media($fullSize){
+      display:block;
+    }
+
+    @include media($tablet){
+      display: block;
+    }
+}
+
+
 .contact-info {
   color      : $primary-color;
   font-family: $primary-font-family;
