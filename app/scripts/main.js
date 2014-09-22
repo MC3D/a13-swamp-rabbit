@@ -17,7 +17,7 @@ $.ajax({
 	var photos = data.photos.photo;
 	_.each(photos, function(photo){
 		renTemplate('.imgContainer','#image_template',photo);
-	})
+	});
 });
 
 /////// MAP CREATE ////////
